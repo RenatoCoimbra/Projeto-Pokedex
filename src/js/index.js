@@ -2,7 +2,7 @@ const botaoAlterarTema = document.getElementById("botao-alterar-tema");
 
 const body = document.querySelector("body");
 
-const imagemBotaoTrocaDeTema = document.querySelector("sol-lua");
+const imagemBotaoTrocaDeTema = document.querySelector(".sol-lua");
 
 botaoAlterarTema.addEventListener("click", () => {
     
@@ -18,6 +18,6 @@ botaoAlterarTema.addEventListener("click", () => {
 
     } else {
      
-        imagemBotaoTrocaDeTema.setAttribute("src","./src/imagens/moon.png");
+        imagemBotaoTrocaDeTema.setAttribute("src","../src/imagens/moon.png");
     }
 });
