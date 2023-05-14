@@ -12,9 +12,9 @@ body.classList.toggle("modo-escuro");
 
     if (modoEscuroEstaAtivo) {
                
-        imagemBotaoTrocaDeTema.setAttribute("src", "./imagens/sun.png");
+        imagemBotaoTrocaDeTema.setAttribute("src", "./src/imagens/sun.png");
 
     } else {
-        imagemBotaoTrocaDeTema.setAttribute("src", "./imagens/moon.png");
+        imagemBotaoTrocaDeTema.setAttribute("src", "./src/imagens/moon.png");
     }
 });
