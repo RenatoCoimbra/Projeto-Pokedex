@@ -18,6 +18,6 @@ botaoAlterarTema.addEventListener("click", () => {
 
     } else {
      
-        imagemBotaoTrocaDeTema.setAttribute("src","../src/imagens/pngtree-yellow-moon-image_1318111.jpg");
+        imagemBotaoTrocaDeTema.setAttribute("src","./imagens/moon.png");
     }
 });
