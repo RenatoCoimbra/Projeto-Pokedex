@@ -2,7 +2,7 @@ const botaoAlterarTema = document.getElementById("botao-alterar-tema");
 
 const body = document.querySelector("body");
 
-const imagemBotaoTrocaDeTema = document.querySelector(".sol-lua");
+const imagemBotaoTrocaDeTema = document.querySelector("sol-lua");
 
 botaoAlterarTema.addEventListener("click", () => {
     
