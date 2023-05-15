@@ -12,12 +12,13 @@ botaoAlterarTema.addEventListener("click", () => {
 
     if (modoEscuroEstaAtivo) {
        
-        
+       
+     
+        imagemBotaoTrocaDeTema.setAttribute("src","./src/imagens/moon.png");
+
+      } else {      
 
         imagemBotaoTrocaDeTema.setAttribute("src","./src/imagens/sun.png");
 
-    } else {
-     
-        imagemBotaoTrocaDeTema.setAttribute("src","./src/imagens/bulbasaur.png");
     }
 });
