@@ -1,0 +1,176 @@
+ body {
+     font-family: 'Poppins', 'sans-serif';
+     max-width: 1280px;
+     margin: 0 auto;
+     background-color: #5e5b5bad;
+     color: #333333;
+ }
+
+ body.modo-escuro {
+     background-color: #212121;
+     color: #f5f5f5
+ }
+
+ header {
+     display: flex;
+     justify-content: space-between;
+     padding: 25px;
+ }
+
+ header .logo,
+ header .sol-lua {
+     width: 30px;
+     transition: 0, 2s ease-in-out
+ }
+
+ header #botao-alterar-tema {
+     background: none;
+     border: none;
+     cursor: pointer;
+ }
+
+
+ header .sol-lua:hover,
+ header .logo:hover,
+ main .cartao-pokemon:hover {
+     transform: scale(1.05);
+     cursor: pointer;
+     background-color: none;
+
+ }
+
+ main {
+     padding: 25px
+ }
+
+ main .listagem-pokemon {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 30px;
+     justify-content: center;
+ }
+
+ main .cartao-pokemon {
+     background-image: url(https://img.freepik.com/vetores-premium/fundo-azul-da-arte-pop-dos-desenhos-animados-em-quadrinhos_530597-1422.jpg?w=740);
+     background-size: auto;
+     width: 200px;
+     padding: 15px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 15px;
+     border-radius: 15px;
+     transition: 0.2s ease-in-out;
+     border: yellow solid 3px
+ }
+
+ main .cartao-pokemon:hover {
+     background-color: #96d9d6;
+     box-shadow: 5px 9px 10px #000;
+ }
+
+ .modo-escuro .cartao-pokemon .caixa-descricao {
+     background-color: #a8a8a8;
+     color: #000
+ }
+
+ .modo-escuro .informacoes .nome .numero span {
+     background-color: #000;
+
+ }
+
+
+ main .cartao-pokemon .informacoes {
+     display: flex 2px;
+     justify-content: space-between;
+     border-radius: 15px;
+     color: white;
+ }
+
+ main .descricao {
+     color: #000;
+     background-color: #a8a8a8;
+     border: #000 solid 2px;
+     padding: 2px;
+     text-align: center;
+     justify-content: space-between;
+ }
+
+ .caixa-descricao {
+     margin: 5px;
+     padding: 5px;
+     background-image: url(./Imagens/text-box-2.png);
+     background-position: border;
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-color: #a8a8a8;
+     border: 2px;
+     border-radius: 3px;
+
+ }
+
+ main .cartao-pokemon .informacoes span {
+     padding: 5px;
+     text-transform: uppercase;
+     font-size: 12px;
+     text-decoration: underline;
+     color: #050505;
+     background-color: #f5f5f5;
+     border-radius: 15px;
+     color: #181717;
+ }
+
+ main .cartao-pokemon .gif {
+     width: 90px;
+     height: 90px;
+ }
+
+ main .cartao-pokemon .tipos {
+     display: flex;
+     gap: 10px;
+ }
+
+ main .cartao-pokemon .tipo {
+     padding: 8px;
+     border-radius: 25px;
+
+ }
+
+ main .grama {
+     background-color: #7ac74c;
+     border: #181717 solid 2px;
+ }
+
+ .venenoso {
+     background-color: #9c0bc4;
+     border: #181717 solid 2px;
+ }
+
+ .fogo {
+     background-color: #ee8130;
+     border: #181717 solid 2px;
+ }
+
+ .agua {
+     background-color: #6390f0;
+     border: #181717 solid 2px;
+ }
+
+ .inseto {
+     background-color: #a6b91a;
+     border: #181717 solid 2px;
+ }
+
+ .voador {
+     background-color: powderblue;
+     border: #181717 solid 2px;
+ }
+
+ main .descricao {
+     max-height: 38px;
+     overflow-y: scroll;
+     font-size: 12px;
+     font-style: bold;
+     padding-right: 3px;
+     font-family: 'Courier New', Courier, monospace;
+ }
